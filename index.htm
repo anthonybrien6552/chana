@@ -92,22 +92,7 @@
    <img  src="5.jpg" style='width:100%'>
 </div>
 
-<script>
-
-document.onreadystatechange = function() { 
-    if (document.readyState !== "complete") { 
-        document.querySelector( 
-          "body").style.visibility = "hidden"; 
-        document.querySelector( 
-          "#loader").style.visibility = "visible"; 
-    } else { 
-        document.querySelector( 
-          "#loader").style.display = "none"; 
-        document.querySelector( 
-          "body").style.visibility = "visible"; 
-    } 
-}; 
-  
+<script>  
 $(document).ready(function(){
   $('body').scrollspy({target: ".navbar", offset: 50});   
 });  
